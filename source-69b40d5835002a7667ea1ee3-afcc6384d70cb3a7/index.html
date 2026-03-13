@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Установка профессионального звука в храмах</title>
+<link rel="canonical" href="https://zvuk-v-hramah.com/">
+<meta property="og:url" content="https://zvuk-v-hramah.com/">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box}
+
+body{
+margin:0;
+font-family:Montserrat, sans-serif;
+background:#f6f3ef;
+color:#333;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
+
+h1,h2,h3{
+font-family:'Cormorant Garamond', serif;
+margin:0;
+}
+
+section{padding:80px 0}
+
+.title{
+text-align:center;
+font-size:36px;
+margin-bottom:40px;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+background:url('1.jpg') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+position:relative;
+}
+
+.hero::before{
+content:'';
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background:rgba(0,0,0,0.55);
+}
+
+.hero-content{
+position:relative;
+z-index:2;
+max-width:700px;
+padding:20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+background:#8b1e2d;
+color:white;
+padding:14px 28px;
+text-decoration:none;
+font-size:16px;
+border:none;
+cursor:pointer;
+border-radius:4px;
+}
+
+.btn:hover{opacity:0.9}
+
+/* ABOUT */
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:6px;
+}
+
+.features{margin-top:20px}
+
+.feature{margin-bottom:10px}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.service{
+background:white;
+padding:25px;
+border-radius:6px;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* ADVANTAGES */
+
+.advantages{background:white}
+
+.advantages ul{
+max-width:700px;
+margin:auto;
+padding-left:20px;
+}
+
+/* GALLERY */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:12px;
+}
+
+.gallery img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.gallery img:hover{transform:scale(1.03)}
+
+/* FORM */
+
+.form-box{
+max-width:500px;
+margin:auto;
+background:white;
+padding:35px;
+border-radius:6px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+input{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:4px;
+}
+
+/* CONTACTS */
+
+.contacts{text-align:center;line-height:2}
+
+/* FLOAT BUTTONS */
+
+.float-buttons{
+position:fixed;
+bottom:20px;
+right:20px;
+display:flex;
+flex-direction:column;
+gap:10px;
+z-index:999;
+}
+
+.float-buttons a{
+padding:12px 16px;
+color:white;
+text-decoration:none;
+font-size:14px;
+border-radius:4px;
+}
+
+.call{background:#8b1e2d}
+.telegram{background:#0088cc}
+
+/* FOOTER */
+
+footer{
+background:#222;
+color:#ccc;
+text-align:center;
+padding:20px;
+font-size:14px;
+}
+
+/* LIGHTBOX */
+
+.lightbox{
+display:none;
+position:fixed;
+z-index:1000;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.9);
+justify-content:center;
+align-items:center;
+}
+
+.lightbox img{
+max-width:90%;
+max-height:90%;
+border-radius:6px;
+}
+
+.lightbox span{
+position:absolute;
+top:20px;
+right:30px;
+font-size:40px;
+color:white;
+cursor:pointer;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{font-size:34px}
+
+.about{grid-template-columns:1fr}
+
+.gallery img{height:180px}
+
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Установка профессионального звука в храмах</h1>
+<p>Голос священника должен звучать чисто в каждом уголке церкви</p>
+<a href="#form" class="btn">Оставить заявку</a>
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="title">Меня зовут Дмитрий</h2>
+
+<div class="about">
+
+<img src="2.jpg">
+
+<div>
+
+<p>
+Я более 15 лет занимаюсь профессиональным звуком и понимаю особенности храмовой акустики.
+</p>
+
+<p>
+Работаю с большими каменными помещениями и сложным эхом. Подбираю оборудование так,
+чтобы звук был чистым и разборчивым, а техника гармонично вписывалась в интерьер.
+</p>
+
+<div class="features">
+<div class="feature">✔ Личный выезд</div>
+<div class="feature">✔ Подбор оборудования</div>
+<div class="feature">✔ Профессиональная настройка</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</section>
+
+<section style="background:#f0ece6">
+<div class="container">
+
+<h2 class="title">Что входит в мою работу</h2>
+
+<div class="services">
+
+<div class="service">Проектирование акустики храма</div>
+<div class="service">Подбор и поставка оборудования</div>
+<div class="service">Профессиональный монтаж</div>
+<div class="service">Настройка звука</div>
+<div class="service">Обучение работе с микрофонами</div>
+
+</div>
+</div>
+</section>
+
+<section class="advantages">
+<div class="container">
+
+<h2 class="title">Преимущества работы со мной</h2>
+
+<ul>
+<li>Работаю аккуратно и с уважением к церковному укладу</li>
+<li>Оборудование вписывается в интерьер храма</li>
+<li>Четкая и разборчивая речь во всех частях храма</li>
+</ul>
+
+</div>
+</section>
+
+<section style="background:#f0ece6">
+<div class="container">
+
+<h2 class="title">Примеры выполненных работ</h2>
+
+<div class="gallery" id="gallery"></div>
+
+</div>
+</section>
+
+<section id="form">
+<div class="container">
+
+<h2 class="title">Нужен качественный звук в храме?</h2>
+
+<div class="form-box">
+
+<form action="mailto:bern95@mail.ru" method="post" enctype="text/plain">
+<input type="text" name="name" placeholder="Ваше имя" required>
+<input type="tel" name="phone" placeholder="Телефон" required>
+<button class="btn" type="submit">Жду звонка</button>
+</form>
+
+<p style="font-size:14px;margin-top:10px">
+Я перезвоню вам лично в течение нескольких часов
+</p>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="container contacts">
+
+<h2 class="title">Свяжитесь со мной</h2>
+
+<p><b>Дмитрий Николаевич Алексин</b></p>
+<p><a href="tel:+79165842801">+7 (916) 584-28-01</a></p>
+<p><a href="mailto:bern95@mail.ru">bern95@mail.ru</a></p>
+
+</div>
+</section>
+
+<footer>
+© 2026 Установка звука в храмах
+</footer>
+
+<div class="float-buttons">
+<a class="telegram" href="https://t.me/Stolbetto" target="_blank">Telegram</a>
+<a class="call" href="javascript:void(0)" onclick="this.textContent=this.textContent==='+7(916) 584-28-01'?'Позвонить':'+7(916) 584-28-01'">Позвонить</a>
+</div>
+
+<div id="lightbox" class="lightbox">
+<span onclick="closeLightbox()">×</span>
+<img id="lightbox-img">
+</div>
+
+<script>
+// Generate gallery images 1.jpg – 19.jpg
+const gallery = document.getElementById("gallery");
+for(let i=3;i<=19;i++){
+const img = document.createElement("img");
+img.src = i + ".jpg";
+img.alt = "Фото объекта " + i;
+img.onclick = () => openLightbox(img.src);
+gallery.appendChild(img);
+}
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+
+function openLightbox(src){
+lightbox.style.display="flex";
+lightboxImg.src = src;
+}
+
+function closeLightbox(){
+lightbox.style.display="none";
+}
+
+lightbox.addEventListener("click", function(e){
+if(e.target !== lightboxImg){
+closeLightbox();
+}
+});
+</script>
+
+</body>
+</html>
